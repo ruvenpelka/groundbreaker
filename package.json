@@ -14,13 +14,13 @@
 		"bundle": "npm run build && dir-archiver --src ./ --dest ./groundbreaker.zip --exclude groundbreaker.zip node_modules .git .DS_Store .idea"
 	},
 	"devDependencies": {
-		"@tailwindcss/forms": "^0.4.0",
-		"@tailwindcss/typography": "^0.5.0",
-		"autoprefixer": "^10.4.2",
-		"dir-archiver": "^1.2.0",
-		"postcss": "^8.4.5",
-		"postcss-cli": "^9.1.0",
-		"postcss-import": "^14.0.2",
-		"tailwindcss": "^3.0.13"
+		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/typography": "^0.5.8",
+		"autoprefixer": "^10.4.13",
+		"dir-archiver": "^2.1.0",
+		"postcss": "^8.4.18",
+		"postcss-cli": "^10.0.0",
+		"postcss-import": "^15.0.0",
+		"tailwindcss": "^3.2.2"
 	}
 }
