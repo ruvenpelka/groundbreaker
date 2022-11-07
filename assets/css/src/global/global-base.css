@@ -1,0 +1,129 @@
+/**
+ * GLOBAL-BASE.CSS
+ *
+ * Base HTML elements styles.
+ */
+
+
+
+/**
+ * BASE/ROOT
+ */
+
+:root {
+	color: var(--wp--custom--site--text-color);
+	background-color: var(--wp--custom--site--bg-color);
+	font-family: var(--wp--custom--site--font-family);
+	font-size: var(--wp--custom--site--font-size);
+	font-weight: var(--wp--custom--site--font-weight);
+	line-height: var(--wp--custom--site--line-height);
+}
+
+
+
+/**
+ * BASE/HTML
+ */
+
+html {
+	@apply scroll-smooth;
+}
+
+
+
+/**
+ * BASE/LINKS
+ */
+
+a {
+	@apply transition;
+	color: var(--wp--custom--link--color);
+	font-weight: var(--wp--custom--link--font-weight);
+	text-decoration: var(--wp--custom--link--text-decoration);
+}
+
+a:hover {
+	color: var(--wp--custom--link--color--hover);
+	text-decoration: var(--wp--custom--link--text-decoration--hover);
+}
+
+
+
+/**
+ * BASE/HEADINGS
+ *
+ * Here we also make sure to override the block editor default styles.
+ */
+
+h1 {
+	color: var(--wp-custom--h1--text-color);
+	font-family: var(--wp-custom--h1--font-family);
+	font-weight: var(--wp-custom--h1--font-weight);
+	font-size: var(--wp-custom--h1--font-size);
+	line-height: var(--wp-custom--h1--line-height);
+}
+h2 {
+	color: var(--wp-custom--h2--text-color);
+	font-family: var(--wp-custom--h2--font-family);
+	font-weight: var(--wp-custom--h2--font-weight);
+	font-size: var(--wp-custom--h2--font-size);
+	line-height: var(--wp-custom--h2--line-height);
+}
+h3 {
+	color: var(--wp-custom--h3--text-color);
+	font-family: var(--wp-custom--h3--font-family);
+	font-weight: var(--wp-custom--h3--font-weight);
+	font-size: var(--wp-custom--h3--font-size);
+	line-height: var(--wp-custom--h3--line-height);
+}
+h4 {
+	color: var(--wp-custom--h4--text-color);
+	font-family: var(--wp-custom--h4--font-family);
+	font-weight: var(--wp-custom--h4--font-weight);
+	font-size: var(--wp-custom--h4--font-size);
+	line-height: var(--wp-custom--h4--line-height);
+}
+h5 {
+	color: var(--wp-custom--h5--text-color);
+	font-family: var(--wp-custom--h5--font-family);
+	font-weight: var(--wp-custom--h5--font-weight);
+	font-size: var(--wp-custom--h5--font-size);
+	line-height: var(--wp-custom--h5--line-height);
+}
+h6 {
+	color: var(--wp-custom--h6--text-color);
+	font-family: var(--wp-custom--h6--font-family);
+	font-weight: var(--wp-custom--h6--font-weight);
+	font-size: var(--wp-custom--h6--font-size);
+	line-height: var(--wp-custom--h6--line-height);
+}
+
+
+
+/**
+ * BASE/BUTTONS
+ */
+
+input[type="submit"]:not(.s-no-style) {
+	@apply cursor-pointer;
+}
+
+button.s-styled,
+input[type="submit"]:not(.s-no-style) {
+	color: var(--wp--custom--buttons--color);
+	background-color: var(--wp--custom--buttons--bg-color);
+	border-color: var(--wp--custom--buttons--bg-color);
+	border-width: var(--wp--custom--buttons--border-width);
+	border-radius: var(--wp--custom--buttons--border-radius);
+	padding: var(--wp--custom--buttons--py) var(--wp--custom--buttons--px);
+	@apply hover:no-underline border-solid font-medium text-base transition;
+}
+
+button.s-styled:hover,
+button.s-styled:focus,
+input[type="submit"]:not(.s-no-style):hover,
+input[type="submit"]:not(.s-no-style):focus {
+	color: var(--wp--custom--buttons--color--hover);
+	background-color: var(--wp--custom--buttons--bg-color--hover);
+	border-color: var(--wp--custom--buttons--bg-color--hover);
+}

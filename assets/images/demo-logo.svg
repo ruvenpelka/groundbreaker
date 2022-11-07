@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="878px" height="646px" viewBox="0 0 878 646" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-325.000000, -102.000000)">
+            <g id="Group" transform="translate(318.000000, 102.000000)">
+                <text id="Company" font-family="Rubik-Bold, Rubik" font-size="156" font-weight="bold" letter-spacing="18.2999997" fill="#000000">
+                    <tspan x="0.0420010014" y="491">COMPANY</tspan>
+                </text>
+                <text id="Logo" font-family="Rubik-Light, Rubik" font-size="156" font-weight="300" letter-spacing="18.2999997" fill="#000000">
+                    <tspan x="219.450001" y="644">LOGO</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#000000" stroke-width="27" x="307.5" y="13.5" width="291" height="291" rx="75"></rect>
+                <rect id="Rectangle-Copy" stroke="#000000" stroke-width="27" x="358.5" y="64.5" width="189" height="189" rx="36"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

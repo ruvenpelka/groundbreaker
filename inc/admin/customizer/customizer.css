@@ -1,0 +1,85 @@
+/**
+ * Theme Sections
+ */
+
+#customize-controls #accordion-panel-layout .accordion-section-title,
+#customize-controls #accordion-panel-typography .accordion-section-title,
+#customize-controls #accordion-panel-elements .accordion-section-title,
+#customize-controls #accordion-panel-blocks .accordion-section-title,
+#customize-controls #accordion-panel-components .accordion-section-title,
+#customize-controls #accordion-panel-ui_settings .accordion-section-title,
+#customize-controls #accordion-panel-theme_settings .accordion-section-title {
+	border-left-color: #f1f1f1;
+	background-color: #f1f1f1;
+}
+
+#customize-controls #accordion-panel-layout .accordion-section-title:focus,
+#customize-controls #accordion-panel-layout .accordion-section-title:hover,
+#customize-controls #accordion-panel-typography .accordion-section-title:focus,
+#customize-controls #accordion-panel-typography .accordion-section-title:hover,
+#customize-controls #accordion-panel-elements .accordion-section-title:focus,
+#customize-controls #accordion-panel-elements .accordion-section-title:hover,
+#customize-controls #accordion-panel-blocks .accordion-section-title:focus,
+#customize-controls #accordion-panel-blocks .accordion-section-title:hover,
+#customize-controls #accordion-panel-components .accordion-section-title:focus,
+#customize-controls #accordion-panel-components .accordion-section-title:hover,
+#customize-controls #accordion-panel-ui_settings .accordion-section-title:focus,
+#customize-controls #accordion-panel-ui_settings .accordion-section-title:hover,
+#customize-controls #accordion-panel-theme_settings .accordion-section-title:focus,
+#customize-controls #accordion-panel-theme_settings .accordion-section-title:hover {
+	color: #2271b1;
+	background: #eaeaea;
+	border-left-color: #2271b1;
+}
+
+/**
+ * Responsive Buttons
+ */
+
+.rvn-responsive-buttons {
+	/*margin-top: 24px;*/
+	margin-bottom: 0;
+	display: flex;
+}
+
+.rvn-responsive-button {
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 16px/26px dashicons;
+	vertical-align: top;
+	padding: 4px 8px 0;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	text-decoration: none;
+	color: #646970;
+	border-bottom: 2px solid #bdbdbd;
+	/*background-color: red;*/
+}
+.rvn-responsive-button.is-active {
+	border-bottom-color: #2271b1;
+	color: #2271b1;
+}
+
+.rvn-responsive-button-desktop:before { content: "\f472"; }
+.rvn-responsive-button-tablet:before { content: "\f471"; }
+.rvn-responsive-button-mobile:before { content: "\f470"; }
+
+.rvn-responsive-button:focus {
+	box-shadow: none;
+}
+
+.rvn-responsive-icon {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+/**
+ * Divider Control
+ */
+
+.rvn-divider {
+	margin-top: .7rem;
+	margin-bottom: .7rem;
+	border-top: 2px solid #c5c5c5;
+	border-bottom: none;
+}

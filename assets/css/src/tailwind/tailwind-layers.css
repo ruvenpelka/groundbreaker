@@ -1,0 +1,58 @@
+
+
+/**
+ * Container Component
+ */
+
+@layer components {
+	.o-container {
+		@apply mx-auto;
+		max-width: var(--wp--custom--container--max-width);
+		padding-left: var(--wp--custom--container--padding);
+		padding-right: var(--wp--custom--container--padding);
+	}
+}
+
+/**
+ * Block Padding
+ */
+
+@layer utilities {
+	.p-block, .py-block, .pt-block { padding-top: var(--wp--custom--blocks--vertical-space) !important; }
+	.p-block, .py-block, .pb-block { padding-bottom: var(--wp--custom--blocks--vertical-space) !important; }
+	.p-block, .px-block, .pl-block { padding-left: var(--wp--custom--blocks--horizontal-space) !important; }
+	.p-block, .px-block, .pr-block { padding-right: var(--wp--custom--blocks--horizontal-space) !important; }
+}
+
+/**
+ * Large Block Padding
+ */
+
+@layer utilities {
+	.p-block-lg, .py-block-lg, .pt-block-lg { padding-top: var(--wp--custom--blocks--vertical-space--lg) !important; }
+	.p-block-lg, .py-block-lg, .pb-block-lg { padding-bottom: var(--wp--custom--blocks--vertical-space--lg) !important; }
+	.p-block-lg, .px-block-lg, .pl-block-lg { padding-left: var(--wp--custom--blocks--horizontal-space--lg) !important; }
+	.p-block-lg, .px-block-lg, .pr-block-lg { padding-right: var(--wp--custom--blocks--horizontal-space--lg) !important; }
+}
+
+/**
+ * Block Margin
+ */
+
+@layer utilities {
+	.m-block, .my-block, .mt-block { margin-top: var(--wp--custom--blocks--vertical-space) !important; }
+	.m-block, .my-block, .mb-block { margin-bottom: var(--wp--custom--blocks--vertical-space) !important; }
+	.m-block, .mx-block, .ml-block { margin-left: var(--wp--custom--blocks--horizontal-space) !important; }
+	.m-block, .mx-block, .mr-block { margin-right: var(--wp--custom--blocks--horizontal-space) !important; }
+}
+
+/**
+ * Large Block Margin
+ */
+
+@layer utilities {
+	.m-block-lg, .my-block-lg, .mt-block-lg { margin-top: var(--wp--custom--blocks--vertical-space--lg) !important; }
+	.m-block-lg, .my-block-lg, .mb-block-lg { margin-bottom: var(--wp--custom--blocks--vertical-space--lg) !important; }
+	.m-block-lg, .mx-block-lg, .ml-block-lg { margin-left: var(--wp--custom--blocks--horizontal-space--lg) !important; }
+	.m-block-lg, .mx-block-lg, .mr-block-lg { margin-right: var(--wp--custom--blocks--horizontal-space--lg) !important; }
+}

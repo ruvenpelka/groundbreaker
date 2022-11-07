@@ -1,0 +1,96 @@
+/**
+ * BLOCK-EDITOR.CSS
+ *
+ * This file is enqueued in the block editor. Here you can add CSS and set
+ * variables that styles blocks only in the editor. You can also override CSS
+ * that's defined in the global.css file.
+ */
+
+
+
+/**
+ * BASE/ROOT
+ */
+
+:root {
+	background-color: var(--wp--custom--site-container--bg-color);
+}
+
+
+
+/**
+ * BLOCK-EDITOR/WRAPPER
+ */
+
+body {
+	@apply pt-0;
+	padding-left: var(--wp--custom--container--padding);
+	padding-right: var(--wp--custom--container--padding);
+}
+
+
+
+/**
+ * BLOCK-EDITOR/BLOCKS
+ */
+
+.wp-block {
+	max-width: var(--wp--custom--blocks--block-width);
+}
+
+[data-block] {
+	margin-top: var(--wp--custom--blocks--vertical-space);
+	margin-bottom: var(--wp--custom--blocks--vertical-space);
+}
+
+.wp-block[data-align=full],
+.wp-block[data-align=wide],
+.wp-block.is-reusable,
+.wp-block[data-type^=genesis-custom-blocks] {
+	@apply w-full;
+	@apply max-w-full; /* WP Override */
+}
+
+.wp-block[data-align=wide] {
+	max-width: calc( var(--wp--custom--blocks--block-width--wide) - 2 * var(--wp--custom--container--padding) );
+}
+
+
+
+/**
+ * BLOCK-EDITOR/BUTTONS
+ */
+
+.components-button.is-primary {
+	background: var(--wp-admin-theme-color);
+}
+
+
+
+/**
+ * BLOCK-EDITOR/IMAGE-BLOCK
+ */
+
+/* Make sure images in the editor that are set to "Full Size" appear 100% wide */
+.wp-block-image.size-full .components-resizable-box__container {
+	@apply w-full !important;
+}
+
+
+
+/**
+ * PLUGINS/GENESIS-CUSTOM-BLOCK
+ */
+
+[data-type^='genesis-custom-blocks'] .block-form {
+	@apply bg-gray-200 text-base-color;
+}
+
+div[class^=wp-block-genesis-custom-blocks-] .block-form h3,
+.genesis-custom-blocks-control .components-base-control__label {
+	@apply text-left;
+}
+
+.genesis-custom-blocks-control .components-text-control__input {
+	@apply text-base-color;
+}

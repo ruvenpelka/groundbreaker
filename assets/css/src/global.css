@@ -1,0 +1,17 @@
+/**
+ * GLOBAL.CSS
+ *
+ * This files is enqueued on the frontend and the block editor.
+ */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "tailwind/tailwind-layers.css";
+
+@import "global/global-base.css";
+@import "global/global-wp-blocks.css";
+@import "global/global-wp-widgets.css";
+@import "global/global-components.css";
+@import "global/global-plugins.css";

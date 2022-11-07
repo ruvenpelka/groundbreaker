@@ -1,0 +1,16 @@
+/**
+ * GLOBAL-PLUGINS.CSS
+ *
+ * Plugin specific CSS.
+ */
+
+
+
+/**
+  * PLUGINS/CONTACT-FORM-7
+  */
+
+/* Hide CF7 recaptcha badge */
+/*.grecaptcha-badge {*/
+/*	display: none !important;*/
+/*}*/
